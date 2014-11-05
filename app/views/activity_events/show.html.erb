@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Useractivity:</b>
+  <%= @activity_event.userActivity %>
+</p>
+
+<p>
+  <b>Amount:</b>
+  <%= @activity_event.amount %>
+</p>
+
+<p>
+  <b>Journalentry:</b>
+  <%= @activity_event.journalEntry %>
+</p>
+
+
+<%= link_to 'Edit', edit_activity_event_path(@activity_event) %> |
+<%= link_to 'Back', activity_events_path %>

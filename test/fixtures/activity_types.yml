@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: Fitness
+  description: FitnessDesc
+
+two:
+  name: Wellness
+  description: Wellness Desc
+  
+three:
+  name: Food
+  description: Food Desc

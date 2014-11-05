@@ -1,0 +1,30 @@
+<h1>RR04 home screen</h1>
+
+<p>Find me in app/views/home/index.html.erb</p>
+
+<p>This is a fitness tracking application based on QbeFit.  The data model is:</p>
+
+<h4>ActivityType</h4>
+
+Records present: <%= @activity_type_count %><br/>
+
+A classification such as "Fitness" or "Wellness"
+
+<h4>Activity</h4>
+
+Records present: <%= @activity_count %><br/>
+
+For example, "Hiking", "Walking", "Bicycling".  Each record is linked to an ActivityType.
+
+<h4>UserActivity</h4>
+
+Many-to-many between User and Activity, recording sign-ups.
+
+<h4>User</h4>
+
+The information about a user, including first name and last name.
+
+<h4>ActivityEvent</h4>
+
+What was done and when, plus how much.  Linked to UserActivity record.
+
